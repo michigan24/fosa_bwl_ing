@@ -1,0 +1,155 @@
+%coding:utf-8
+
+%----------------------------------------
+%FOSAPHY, a LaTeX-Code for a summary of optics
+%Copyright (C) 2014, Mario Felder, Michael Fallegger
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+\chapter{Grundlagen}
+\[
+	\textbf{Produktivität}=\frac{\textbf{Arbeitsergebnis}}{\textbf{Einsatz von Produktionsfaktoren}}
+\]
+\\
+\[
+	\textbf{Wirtschaftlichkeit}=\frac{\textbf{Ertrag}}{\textbf{Aufwand}}
+\]
+\\
+\[
+	\textbf{Rentabilität}=\frac{\textbf{Gewinn}}{\textbf{$\oslash$ eingesetztes Kapital}}
+\]
+\\
+\chapter{Kostenrechnung}
+\section{Liquidität}
+\[
+		\textbf{Cash-Ratio o. Liquiditätsgrad I}=\frac{\textbf{Liquide Mittel}}{\textbf{kurzf. Fremdkapitel}}
+\]
+\\
+\[
+	\textbf{Quick-Ratio o. LG II }=\frac{\textbf{Liquide Mittel + Forderungen}}{\textbf{kurzf. Fremdkapitel}}
+\]
+\\
+\[
+		\textbf{Current-Ratio}=\frac{\textbf{Umlaufvermögen}}{\textbf{kurzf. Fremdkapitel}}
+\]
+\\
+\section{Vermögensstruktur}
+\[
+		\textbf{Umlaufintensität}=\frac{\textbf{Umlaufvermögen}}{\textbf{Gesamtvermögen}}
+\]
+\\
+\[
+		\textbf{Anlageintensität}=\frac{\textbf{Anlagevermögen}}{\textbf{Gesamtvermögen}}
+\]
+\\
+\section{Kapitalstruktur}
+\[
+		\textbf{Fremdfinanzierungsgrad}=\frac{\textbf{Fremdkapital}}{\textbf{Gesamtkapital}}
+\]
+\\
+\[
+		\textbf{Eigenfinanzierungsgrad}=\frac{\textbf{Fremdkapital}}{\textbf{Gesamtkapital}}
+\]
+\\
+\section{Deckung der Anlagen}
+\[
+		\textbf{Anlagendeckungsgrad I}=\frac{\textbf{Eigenkapital}}{\textbf{Anlagevermögen}}
+\]
+\\
+\[
+		\textbf{Anlagendeckungsgrad II}=\frac{\textbf{Eigenkapital + langfr. Fremdkapital}}{\textbf{Anlagevermögen}}
+\]
+\\
+\section{Rentabilität}
+\[
+		\textbf{Eigenkapitalrentabilität}=\frac{\textbf{Gewinn}}{\textbf{durchschn. Eigenkapital}}
+\]
+\\
+\[
+		\textbf{Gesamtkapitalrentabilität}=\frac{\textbf{Gewinn + Fremdkapitalzinsen}}{\textbf{durchschn. Eigenkapital}}
+\]
+\\
+\chapter{Kosten- und Investitionsrechnung}
+\section{Amortisationsrechnung}
+\[
+		\textbf{Amortisation}_\textbf{Erweiterung}=\frac{\textbf{Kapitaleinsatz}}{\textbf{Gewinn + Abschreibungen}}
+\]
+\\
+\[
+		\textbf{Amortisation}_\textbf{Rationalisierung}=\frac{\textbf{Kapitaleinsatz}}{\textbf{Kosteneinsparung + Abschreibungen}}
+\]
+\\
+\section{Kapitalwertmethode}
+\[
+	a_n=\sum_{t=1}^{n}\left( \frac{1}{\left( 1+i\right) ^t} \right) 
+\]
+\[
+	K_0=\sum_{t=0}^{n}\left( \frac{g_t}{\left( 1+i\right) ^t} \right) + \frac{L_n}{\left( 1+i\right) ^n}-I_0
+\]
+Fallen die Einzahlungsüberschüsse gleichmässsig über die gesamte Nutzungsdauer an, so kann eine vereinfachte Berechnung vorgenommen werden.\\
+\[
+	K_0=a_{\bar{n}}\cdot \frac{L_n}{\left( 1+i\right) ^n}-I_0
+\]
+\\
+\section{Methode des internen Zinssatzes}
+\[
+	I_0=\sum_{t=0}^{n}\left( \frac{g_t}{\left( 1+i\right) ^t} \right) + \frac{L_n}{\left( 1+i\right) ^n}
+\]
+\\
+\section{Annuitätenmethode}
+\[
+	A=\frac{1}{a_{\bar{n}}}K_0
+\]
+\\
+\chapter{Materialwirtschaft}
+\section{Kontrollmöglichkeiten}
+\[
+		\textbf{Lieferbereitschaftsgrad}=\frac{\textbf{sofort ausgelieferte Menge}}{\textbf{gesamte angeforderte Menge}}
+\]
+oder\\
+\[
+		\textbf{Lieferbereitschaftsgrad}=\frac{\textbf{sofort ausgelieferte Aufträge}}{\textbf{gesamte angeforderte Aufträge}}
+\]
+\\
+\[
+		\textbf{durchschn. Lagerbestand}=\frac{\textbf{Anfangsbestand + Endstand}}{\textbf{2}}
+\]
+\\
+\[
+		\textbf{Lagerumschlagshäufigkeit}=\frac{\textbf{Lagerabgang pro Jahr}}{\textbf{durchschn. Lagerbestand}}
+\]
+\\
+\[
+		\textbf{durchschn. Lagerdauer}=\frac{\textbf{durchschn. Lagerbestand}\cdot 360}{\textbf{Lagerabgang pro Jahr}}
+\]
+\\
+\section{Optimale Bestellmenge}
+\[
+	x_{opt}=\sqrt{\frac{200\cdot M\cdot a}{p\cdot q}}
+\]
+\begin{footnotesize}
+	$q:$ Zins-/Lagerkosten in [ \%]\\
+	$M:$ Gesamtmenge pro Periode\\
+	$a:$ Bestellfixkosten\\
+	$p:$ Einstandspreis\\
+\end{footnotesize}
+\\
+\section{Optimale Losgrösse}
+\[
+	x_{opt}=\sqrt{\frac{200\cdot M\cdot \left( H_{fix}+L_{fix} \right)}{h_{var}\cdot q}}
+\]
+\begin{footnotesize}
+	$q:$ Zins-/Lagerkosten in [ \%]\\
+	$M:$ Gesamtmenge pro Periode\\
+	$H_{fix}:$ ??????\\
+	$L_{fix}:$ ??????\\
+	$h_{var}:$ ??????
+\end{footnotesize}
